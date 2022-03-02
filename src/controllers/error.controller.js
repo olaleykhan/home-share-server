@@ -1,3 +1,6 @@
+// 3 possible errors from mongoose. 1, wrong ID
+//
+
 // this is called in development. frontend dev needs all the info causing a bug that he can get;
 const devError = (err, res) => {
 	res.status(err.statusCode).json({
