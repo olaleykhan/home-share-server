@@ -1,7 +1,6 @@
 const PreferenceModel = require('../models/preference.model');
 const AppError = require('../utils/appError');
 const catchAsync = require('../utils/catchAsync');
-const AppError = require('../utils/appError');
 
 exports.createPreference = catchAsync(async (req, res, next) => {
 	const data = req.body;

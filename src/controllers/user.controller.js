@@ -26,7 +26,7 @@ exports.AddUser = async (req, res) => {
 		res.status(201).json({
 			status: 'success',
 			data: {
-				message: 'Tour was succesffully created',
+				message: 'user was succesffully created',
 				tour,
 			},
 		});
